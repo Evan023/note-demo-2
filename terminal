@@ -1,0 +1,8 @@
+vue create note-app
+cd note-app
+vue add element 
+rm -rf node_modules
+rm package-lock.json
+npm cache clean --force
+npm install 
+npm run serve 

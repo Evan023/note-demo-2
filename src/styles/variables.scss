@@ -1,0 +1,27 @@
+// 主题色
+$--color-primary: #409EFF;
+
+// 文字颜色
+$--color-text-primary: #303133;
+$--color-text-regular: #606266;
+$--color-text-secondary: #909399;
+
+// 边框颜色
+$--border-color-base: #DCDFE6;
+$--border-color-light: #E4E7ED;
+$--border-color-lighter: #EBEEF5;
+$--border-color-extra-light: #F2F6FC;
+
+// 背景颜色
+$--background-color-base: #F5F7FA;
+
+// 为了兼容性，同时提供 SCSS 变量
+$color-primary: var(--color-primary);
+$color-text-primary: var(--color-text-primary);
+$color-text-regular: var(--color-text-regular);
+$color-text-secondary: var(--color-text-secondary);
+$border-color-base: var(--border-color-base);
+$border-color-light: var(--border-color-light);
+$border-color-lighter: var(--border-color-lighter);
+$border-color-extra-light: var(--border-color-extra-light);
+$background-color-base: var(--background-color-base); 
